@@ -13,6 +13,7 @@ body{
     min-height: 100vh;
     /* background-color: rgb(156, 27, 220); */
     background: linear-gradient(rgb(183, 105, 222),#809beb);
+    flex-wrap: wrap;
 }
 
 .container{
@@ -107,4 +108,87 @@ input::-webkit-inner-spin-button{
 .button button:hover{
     background: #000;
     color: #fff;
+}
+@media (max-width:509px) {
+       .container{
+        width: 400px;
+       }
+}
+@media (max-width:409px) {
+     .container{
+        width: 350px;
+     }
+     #celsius, #fahrenheit, #kelvin{
+        margin: 10px 10px 10px 30px;
+        width: 250px;
+        
+     }
+     .title{
+        text-align: center;
+        
+     }
+     .title h1{
+        font-size: 1.5rem;
+     }
+     #celsius input, #fahrenheit input, #kelvin input{
+        width: 170px;
+      }
+}
+@media (max-width:309px) {
+    .container{
+        width: 250px;
+    }
+    #celsius input, #fahrenheit input, #kelvin input{
+       width: 120px;
+     }
+     #celsius, #fahrenheit, #kelvin{
+        margin-right: 3rem;
+        width:130px;
+        height: 55px;
+     }
+     .title{
+        text-align: center;
+        
+     }
+     .title h1{
+        font-size: 1.5rem;
+     }
+}
+
+@media (max-width:250px) {
+    .container{
+        width: 200px;
+    }
+    #celsius input, #fahrenheit input, #kelvin input{
+       width: 150px;
+     }
+     #celsius, #fahrenheit, #kelvin{
+        margin-right: 3rem;
+        width:100px;
+        height: 55px;
+     }
+     .title{
+        text-align: center;
+        
+     }
+     .title h1{
+        font-size: 1.5rem;
+     }
+}
+@media (max-width:209px) {
+    .container{
+        width: 170px;
+    }
+    #celsius input, #fahrenheit input, #kelvin input{
+       width: 110px;
+     }
+     #celsius, #fahrenheit, #kelvin{
+        margin-right: 3rem;
+        width:80px;
+        height: 55px;
+     }
+     .title h1{
+        font-size: 1.5rem;
+     }
+     
 }
