@@ -1,4 +1,4 @@
-<img src="Screenshot (82).png" width="200px" height="200px">
+<img src="Screenshot (82).png" width="300px" height="300px">
 ---
 
 #Live Projects
